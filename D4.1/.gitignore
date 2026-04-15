@@ -1,0 +1,6 @@
+index.qmd
+*--*.qmd
+*~
+
+/.quarto/
+**/*.quarto_ipynb

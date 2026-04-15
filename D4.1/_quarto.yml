@@ -1,0 +1,32 @@
+project:
+  type: book
+
+book:
+  title: "D4.1: UC Specifications and Scenarios"
+  author: "GRNET"
+  date: "4/7/2026"
+  chapters:
+    - index.qmd
+    # - 1--Executive-Summary--GRNET.qmd    # copied above as index.qmd
+    - 2--Introduction--GRNET.qmd
+    - 3--Methodology--GRNET.qmd
+    - 4--WP4-Scenarios-and-Use-Cases--GRNET.qmd
+    - 5--Current-Landscape-and-Baseline-Analysis--All-UC-leads-GRNET.qmd
+    - 6--Legal-and-Regulatory-Framework--GRNET.qmd
+    - 7--Technical-Foundations--All-UC-leads-GRNET.qmd
+    - 8--Description-of-the-Ecosystem-Actors-and-Roles--All-UC-leads-GRNET.qmd
+    - 9--Challenges-and-Opportunities--All-UC-leads-GRNET.qmd
+  appendices:
+    - Annex-A--Detailed-Use-Case-Specification-Sheets--Each-UC-lead.qmd
+    - Annex-B--List-of-WP4-Partners-and-Roles--GRNET.qmd
+    - Annex-C--Glossary--GRNET.qmd
+    - Annex-D--List-of-Authors--All.qmd
+    - Annex-E--References--All-UC-leads-GRNET.qmd
+
+format:
+  html:
+    theme:
+      - cosmo
+      - brand
+  pdf:
+    documentclass: scrreprt
