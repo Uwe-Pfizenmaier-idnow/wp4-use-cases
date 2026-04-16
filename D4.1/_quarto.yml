@@ -3,8 +3,8 @@ project:
 
 book:
   title: "D4.1: UC Specifications and Scenarios"
-  author: "GRNET"
-  date: "4/7/2026"
+  author: "APTITUDE WP4"
+  # date: "4/7/2026"
   chapters:
     - index.qmd
     # - 1--Executive-Summary--GRNET.qmd    # copied above as index.qmd
