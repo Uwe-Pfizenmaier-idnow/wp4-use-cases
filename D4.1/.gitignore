@@ -1,3 +1,5 @@
+.venv
+
 index.qmd
 *--*.qmd
 *~
