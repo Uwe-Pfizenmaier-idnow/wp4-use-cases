@@ -49,7 +49,7 @@ def generate_qmd(md: str) -> str:
 def main():
     # Detect section/annex structure
     sections = defaultdict(dict)
-    section_prefix = re.compile("[1-9](\.[0-9]*)*--")
+    section_prefix = re.compile("[1-9](\\.[0-9]*)*--")
     annexes = defaultdict(dict)
     for md in md_inputs:
         if section_prefix.match(md):
